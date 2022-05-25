@@ -174,14 +174,14 @@
   /**
    * Initiate glightbox 
    */
-  const glightbox = window.GLightbox({
+   window.GLightbox({
     selector: '.glightbox'
   });
 
   /**
    * Initiate Gallery Lightbox 
    */
-  const galelryLightbox = window.GLightbox({
+   window.GLightbox({
     selector: '.galelry-lightbox'
   });
 
