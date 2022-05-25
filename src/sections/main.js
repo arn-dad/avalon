@@ -63,7 +63,6 @@ const Main = () => {
           </div>
         </div>
       </section>
-
       <section id="about" className="about">
         <div className="container-fluid">
           <div className="row">
@@ -287,8 +286,7 @@ const Main = () => {
           </div>
         </div>
       </section>
-
-      {/* <section id="appointment" className="appointment section-bg">
+      <section id="appointment" className="appointment section-bg">
         <div className="container">
           <div className="section-title">
             <h2>Make an Appointment</h2>
@@ -402,7 +400,7 @@ const Main = () => {
             </div>
           </form>
         </div>
-      </section> */}
+      </section>
       <section id="departments" className="departments">
         <div className="container">
           <div className="section-title">

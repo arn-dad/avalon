@@ -19,6 +19,8 @@ function App() {
          <Hero />
          <main id="main">
           <AboutUs />
+          <section id="about" className="about"></section>
+          <section id="counts" className="counts"></section>
           <Gallery/>
           <Services/>
          </main>
