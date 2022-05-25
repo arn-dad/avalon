@@ -1,13 +1,14 @@
 import React from "react";
-import Logo from '../img/logo.jpg'
-
+import cm from "classnames";
 
 const Header = () => {
+  const hash = window.location.hash;
+
   return (
     <header id="header" className="fixed-top">
       <div className="container d-flex align-items-center">
         <h1 className="logo me-auto">
-          <a className="main-avalon-logo" href="index.html" />
+          <a className="main-avalon-logo" href="index.html"> </a>
         </h1>
         <a href="index.html" className="logo me-auto" />
         <img src="assets/img/logo.png" alt="" className="img-fluid" />
@@ -15,17 +16,32 @@ const Header = () => {
         <nav id="navbar" className="navbar order-last order-lg-0">
           <ul>
             <li>
-              <a className="nav-link scrollto active" href="#hero">
+              <a
+                className={cm("nav-link scrollto", {
+                  active: hash === "#hero",
+                })}
+                href="#hero"
+              >
                 Home
               </a>
             </li>
             <li>
-              <a className="nav-link scrollto" href="#gallery">
+              <a
+                className={cm("nav-link scrollto", {
+                  active: hash === "#gallery",
+                })}
+                href="#gallery"
+              >
                 Gallery
               </a>
             </li>
             <li>
-              <a className="nav-link scrollto" href="#services">
+              <a
+                className={cm("nav-link scrollto", {
+                  active: hash === "#services",
+                })}
+                href="#services"
+              >
                 Our Services
               </a>
             </li>
