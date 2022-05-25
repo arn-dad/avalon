@@ -3,13 +3,11 @@ import Header from './sections/header';
 import Hero from './sections/hero';
 import Services from './sections/services';
 import Footer from './sections/footer';
-
-import './scripts'
-import './css/main.css'
-import './App.css';
 import AboutUs from './sections/about-us';
 import Gallery from './sections/gallery';
 
+import './css/main.css'
+import './App.css';
 
 function App() {
   return (
