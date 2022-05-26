@@ -1,7 +1,14 @@
 import React from "react";
 import cm from "classnames";
+import { useTranslation } from 'react-i18next';
+
+const lngs = {
+  en: { nativeName: 'English' },
+  de: { nativeName: 'Deutsch' }
+};
 
 const Header = () => {
+  const { t } = useTranslation();
   const hash = window.location.hash;
 
   return (
@@ -22,7 +29,7 @@ const Header = () => {
                 })}
                 href="#hero"
               >
-                Home
+                {t('navLink.home')}
               </a>
             </li>
             <li>

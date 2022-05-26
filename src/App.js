@@ -5,7 +5,7 @@ import Services from './sections/services';
 import Footer from './sections/footer';
 import AboutUs from './sections/about-us';
 import Gallery from './sections/gallery';
-
+import './service/i18n';
 import './css/main.css'
 import './App.css';
 
