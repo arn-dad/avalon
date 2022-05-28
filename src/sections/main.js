@@ -17,11 +17,11 @@ const Main = () => {
                   et. Tenetur quia eos. Autem tempore quibusdam vel
                   necessitatibus optio ad corporis.
                 </p>
-                <div className="text-center">
+                {/* <div className="text-center">
                   <a href="#" className="more-btn">
                     Learn More <i className="bx bx-chevron-right"></i>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-8 d-flex align-items-stretch">

@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="container">
         <h1>{t('titles.welcome')}</h1>
         <h2>Proin faucibus arcu faucibus arcu</h2>
-        <a href="#about" className="btn-get-started scrollto">Get Started</a>
+        {/* <a href="#about" className="btn-get-started scrollto">Get Started</a> */}
       </div>
     </section>
   );
