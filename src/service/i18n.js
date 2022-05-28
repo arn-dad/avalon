@@ -25,7 +25,8 @@ i18n
           navLink: {
             home: 'About us',
             gallery: 'Gallery',
-            services: 'Our Services'
+            services: 'Our Services',
+            contact: 'Contact'
           }
         }
       },
@@ -38,7 +39,8 @@ i18n
           navLink: {
             home: 'О нас',
             gallery: 'Галирея',
-            services: 'Услуги'
+            services: 'Услуги',
+            contact: 'Обратная связь'
           }
         }
       },
@@ -50,7 +52,8 @@ i18n
           },
           navLink: {
             home: 'Մեր մասին',
-            services: 'Ծառայություններ'
+            services: 'Ծառայություններ',
+            contact: 'կոնտակտներ'
           }
         }
       }

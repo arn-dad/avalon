@@ -40,11 +40,11 @@ const Header = () => {
                  {t('navLink.services')}
               </a>
             </li>
-            {/* <li>
-              <a className="nav-link scrollto" href="#departments">
-                Departments
+            <li>
+              <a className="nav-link scrollto" href="#contact">
+                {t('navLink.contact')}
               </a>
-            </li> */}
+            </li>
             {/* <li>
               <a className="nav-link scrollto" href="#doctors">
                 Doctors

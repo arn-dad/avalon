@@ -12,6 +12,7 @@ import './App.css';
 import { init } from './scripts'
 import Preloader from './sections/preloader';
 import { uiInit } from './scripts/main';
+import { Contacts } from './sections/contact';
 
 
 
@@ -41,6 +42,7 @@ function App() {
           <section id="counts" className="counts"></section>
           <Gallery/>
           <Services/>
+          <Contacts />
          </main>
          <Preloader />
          <Footer/>
