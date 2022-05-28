@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import TopBar from './sections/topbar';
 import Header from './sections/header';
 import Hero from './sections/hero';
@@ -8,8 +9,27 @@ import Gallery from './sections/gallery';
 import './service/i18n';
 import './css/main.css'
 import './App.css';
+import { init } from './scripts'
+import Preloader from './sections/preloader';
+import { uiInit } from './scripts/main';
+
+
 
 function App() {
+  const [stack, setStack] = useState([]);
+
+  useEffect(() => {
+    uiInit(stack);
+
+    setTimeout(() => {
+      stack.forEach((onLoad) => {
+        onLoad()
+      })
+      console.log('herous');
+    }, 1000);
+    init();
+  }, [])
+
   return (
     <div className="App">
          <TopBar/>
@@ -22,7 +42,7 @@ function App() {
           <Gallery/>
           <Services/>
          </main>
-         {/* <div id="preloader"></div> */}
+         <Preloader />
          <Footer/>
     </div>
   );

@@ -19,24 +19,38 @@ i18n
     resources: {
       en: {
         translation: {
+          titles: {
+            welcome: 'WELCOME TO AVALON DENTAL'
+          },
           navLink: {
             home: 'About us',
-            gallery: 'Gallery'
+            gallery: 'Gallery',
+            services: 'Our Services'
           }
         }
       },
       ru: {
         translation: {
+          titles: {
+            welcome: 'ДОБРО ПОЖАЛОВАТЬ В АВАЛОН ДЕНТАЛ'
+
+          },
           navLink: {
             home: 'О нас',
-            gallery: 'Галирея'
+            gallery: 'Галирея',
+            services: 'Услуги'
           }
         }
       },
       arm: {
         translation: {
+          titles: {
+            welcome: 'ԲԱՐԻ ԳԱԼՈՒՍՏ ԱՎԱԼՈՆ ԱՏԱՄՆԱԲՈՒԺԱԿԱՆ ԿԼԻՆԻԿԱ'
+
+          },
           navLink: {
-            home: 'Մեր մասին'
+            home: 'Մեր մասին',
+            services: 'Ծառայություններ'
           }
         }
       }

@@ -4,9 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-(function() {
-  "use strict";
-
+export const uiInit = function(stack) {
   /**
    * Easy selector helper function
    */
@@ -57,7 +55,8 @@
       }
     })
   }
-  window.addEventListener('load', navbarlinksActive)
+  stack.push(navbarlinksActive);
+  // window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
 
   /**
@@ -93,7 +92,8 @@
         }
       }
     }
-    window.addEventListener('load', headerScrolled)
+    stack.push(headerScrolled)
+    // window.addEventListener('load', headerScrolled)
     onscroll(document, headerScrolled)
   }
 
@@ -109,7 +109,8 @@
         backtotop.classList.remove('active')
       }
     }
-    window.addEventListener('load', toggleBacktotop)
+    stack.push(toggleBacktotop)
+    // window.addEventListener('load', toggleBacktotop)
     onscroll(document, toggleBacktotop)
   }
 
@@ -153,41 +154,57 @@
   /**
    * Scroll with ofset on page load with hash links in the url
    */
-  window.addEventListener('load', () => {
+  stack.push(() => {
     if (window.location.hash) {
       if (select(window.location.hash)) {
         scrollto(window.location.hash)
       }
     }
-  });
+  })
+  // window.addEventListener('load', () => {
+  //   if (window.location.hash) {
+  //     if (select(window.location.hash)) {
+  //       scrollto(window.location.hash)
+  //     }
+  //   }
+  // });
 
   /**
    * Preloader
    */
   let preloader = select('#preloader');
-  if (preloader) {
-    window.addEventListener('load', () => {
+
+  // if (preloader) {
+  //   window.addEventListener('load', () => {
+  //     preloader.remove()
+  //   });
+  // }
+
+  stack.push(() => {
+    if (preloader) {
       preloader.remove()
-    });
-  }
+    }
+  })
 
   /**
    * Initiate glightbox 
    */
-  const glightbox = GLightbox({
+  const glightbox = window.GLightbox({
     selector: '.glightbox'
   });
 
   /**
    * Initiate Gallery Lightbox 
    */
-  const galelryLightbox = GLightbox({
+  const galelryLightbox = window.GLightbox({
     selector: '.galelry-lightbox'
   });
 
   /**
    * Testimonials slider
    */
+  const Swiper = window.Swiper;
+
   new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
@@ -214,4 +231,4 @@
     }
   });
 
-})()
+}

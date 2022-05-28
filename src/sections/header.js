@@ -2,14 +2,8 @@ import React from "react";
 import cm from "classnames";
 import { useTranslation } from 'react-i18next';
 
-const lngs = {
-  en: { nativeName: 'English' },
-  de: { nativeName: 'Deutsch' }
-};
-
 const Header = () => {
   const { t } = useTranslation();
-  const hash = window.location.hash;
 
   return (
     <header id="header" className="fixed-top">
@@ -24,9 +18,7 @@ const Header = () => {
           <ul>
             <li>
               <a
-                className={cm("nav-link scrollto", {
-                  active: hash === "#hero",
-                })}
+                className={cm("nav-link scrollto", {})}
                 href="#hero"
               >
                 {t('navLink.home')}
@@ -34,22 +26,18 @@ const Header = () => {
             </li>
             <li>
               <a
-                className={cm("nav-link scrollto", {
-                  active: hash === "#gallery",
-                })}
+                className={cm("nav-link scrollto", {})}
                 href="#gallery"
               >
-                Gallery
+               {t('navLink.gallery')}
               </a>
             </li>
             <li>
               <a
-                className={cm("nav-link scrollto", {
-                  active: hash === "#services",
-                })}
+                className={cm("nav-link scrollto", {})}
                 href="#services"
               >
-                Our Services
+                 {t('navLink.services')}
               </a>
             </li>
             {/* <li>

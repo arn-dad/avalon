@@ -4,9 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-(function() {
-  
-
+export const init = function() {
   /**
    * Easy selector helper function
    */
@@ -171,6 +169,7 @@
     });
   }
 
+  console.log('here');
   /**
    * Initiate glightbox 
    */
@@ -214,4 +213,4 @@
     }
   });
 
-})()
+}

@@ -22,7 +22,7 @@ const TopBar = () => {
         <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
         <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
         <div className="d-none d-lg-flex social-links align-items-center lang-drop_m">
-        <select onChange={handleChange} class="form-select lang-selector_m" aria-label="Default select example" value={i18n.language}>
+        <select onChange={handleChange} className="form-select lang-selector_m" aria-label="Default select example" value={i18n.language}>
           <option value="arm">Հայ</option>
           <option value="ru">Ру</option>
           <option value="en">Eng</option>
