@@ -1,11 +1,12 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
+const options = [ { lang: 'ru', label: 'Ру'},  { lang: 'arm', label: 'Հայ'}, { lang: 'en', label: 'Eng'}]
+
 const TopBar = () => {
   const { i18n } = useTranslation();
 
   const handleChange = (event) => {
-    console.log('e', event.target.value);
     i18n.changeLanguage(event.target.value);
   }
 

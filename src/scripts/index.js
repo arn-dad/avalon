@@ -169,7 +169,6 @@ export const init = function() {
     });
   }
 
-  console.log('here');
   /**
    * Initiate glightbox 
    */

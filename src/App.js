@@ -23,12 +23,12 @@ function App() {
     uiInit(stack);
 
     setTimeout(() => {
+      init();
+
       stack.forEach((onLoad) => {
         onLoad()
       })
-      console.log('herous');
     }, 1000);
-    init();
   }, [])
 
   return (
