@@ -23,14 +23,32 @@ i18n
       en: {
         translation: {
           titles: {
-            welcome: 'WELCOME TO AVALON DENTAL'
+            welcome: 'Welcome to Avalon Dental'
           },
           navLink: {
             home: 'About us',
             gallery: 'Gallery',
             services: 'Our Services',
             contact: 'Contact'
+          },
+          intro: {
+            innovation: '',
+            trainer: '',
+            insurance: '',
+            client: ''
+          },
+          services: {
+            title: 'Our services',
+            desc: 'Application of innovative methods, equipments and materials, Abroad trained experienced dentists, Insurance and social packages, Individual approach to every client.',
+            implantation: 'Implantation',
+            surgery: 'Surgery',
+            cosmetic: 'Cosmetic tooth restoration',
+            orthopedics: 'Orthopedics',
+            therapy: 'Therapy',
+            pediatric: 'Pediatric Dentistry',
+            orthodontics: 'Orthodontics'
           }
+          
         }
       },
       ru: {
@@ -44,19 +62,53 @@ i18n
             gallery: 'Галирея',
             services: 'Услуги',
             contact: 'Обратная связь'
+          },
+          intro: {
+            innovation: '',
+            trainer: '',
+            insurance: '',
+            client: ''
+          },
+          services: {
+            title: 'Наши услуги',
+            desc: 'Мы используем инновационные методы, технику, препараты, У нас работают специалисты получившие квалификацию за границей, происходит обслуживание страховых и социальных пакетов( или полюсов). Мы обеспечиваем индивидуальный подход к каждому пациенту.',
+            implantation: 'Имплантация',
+            surgery: 'Хирургия',
+            cosmetic: 'Косметическая реставрация зубов',
+            orthopedics: 'Ортопедия',
+            therapy: 'Терапия',
+            pediatric: 'Детская стоматология',
+            orthodontics: 'Ортодонтия'
           }
         }
       },
       arm: {
         translation: {
           titles: {
-            welcome: 'ԲԱՐԻ ԳԱԼՈՒՍՏ ԱՎԱԼՈՆ ԱՏԱՄՆԱԲՈՒԺԱԿԱՆ ԿԼԻՆԻԿԱ'
+            welcome: 'Բարի գալուստ Ավալոն Դենտալ'
 
           },
           navLink: {
             home: 'Մեր մասին',
             services: 'Ծառայություններ',
             contact: 'կոնտակտներ'
+          },
+          intro: {
+            innovation: '',
+            trainer: '',
+            insurance: '',
+            client: ''
+          },
+          services: {
+            title: 'Մեր ծառայությունները՝',
+            desc: 'Նորարարական մեթողների, սարքավորումների և նյութերի կիրառում, Արտերկրում վերապատրաստված փորձառու մասնագետներ, Ապահովագրական և սոցիալական փաթեթների սպասարկում, Ինդիվիդուալ մոտեցում յուրաքանչյուր հաճախորդին։',
+            implantation: 'Իմպլանտացիա',
+            surgery: 'Վիրաբուժություն',
+            cosmetic: 'Ատամների Կոսմետիկ վերականգնում',
+            orthopedics: 'Օրթոպեդիա',
+            therapy: 'Թերապիա',
+            pediatric: 'Մանկական Ստոմատոլոգիա',
+            orthodontics: 'Օրթոդոնտիա'
           }
         }
       }
