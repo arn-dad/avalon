@@ -19,7 +19,7 @@ const Footer = () => {
             </p>
           </div> */}
 
-          <div className="col-lg-2 col-md-6 footer-links">
+          {/* <div className="col-lg-2 col-md-6 footer-links">
             <h4>Our Links</h4>
             <ul>
               <li><i className="bx bx-chevron-right"></i> <a href="#">Home</a></li>
@@ -45,7 +45,7 @@ const Footer = () => {
               <li><i className="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
               <li><i className="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
             </ul>
-          </div>
+          </div> */}
 
           {/* <div className="col-lg-4 col-md-6 footer-newsletter">
             <h4>Join Our Newsletter</h4>
